@@ -1,0 +1,47 @@
+header {
+    color: white;
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header-button {
+    color: white;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 18px;
+    text-align: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.netflix-logo {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 14px;
+}
+
+.right-section {
+    width: 100px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+.profile-button {
+    width: 30px;
+    border-radius: 5px;
+}
